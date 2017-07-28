@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<posidenpalace.com.customview2.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:doom ="false"
+    app:organized ="true"
+    android:id="@+id/clHolder"
+    tools:context="posidenpalace.com.customview2.MainActivity">
+
+    <posidenpalace.com.customview2.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:doom="true"
+        app:message="Doomed"
+        android:onClick="showDoom"
+        />
+    <posidenpalace.com.customview2.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="vanish"
+        app:doom="true"
+        android:text="Magic"/>
+
+    <posidenpalace.com.customview2.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="childCount"
+        android:text="count"/>
+
+    <posidenpalace.com.customview2.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeColor"
+        android:text="Coolor" />
+
+</posidenpalace.com.customview2.CustomLayout>

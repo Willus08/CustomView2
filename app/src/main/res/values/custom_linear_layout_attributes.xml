@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomLinearLayout">
+
+        <attr name="organized" format="boolean"/>
+        <attr name="doomed" format="boolean"/>
+
+
+    </declare-styleable>
+
+
+</resources>
